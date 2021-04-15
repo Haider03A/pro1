@@ -12,10 +12,12 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: var(--color-body);
+    background-color: var(--color-body)
 }
 /* Start Header */
 .header{
+    position: fixed;
+    width: 100%;
     background-color: var(--color-white);
 }
 .header .contener{
@@ -27,6 +29,7 @@ body{
     justify-content: space-between;
     align-items: center;
     position: relative; 
+    
 }
 .header .contener .logo{
     width: 40px;
@@ -99,7 +102,7 @@ body{
     text-decoration: none;
     color: var(--color-off-black);
     transition: 0.3s; 
-    padding: 13px;
+    padding: 15px 13px;
     display: block;
     font-size: 1.5em;
     border-bottom: 0.1px var(--color-body) solid;
@@ -121,6 +124,7 @@ body{
     color: var(--color-green);
     font-size: 3em;
     font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 90px;
     
 }
 .home p{
@@ -135,7 +139,7 @@ body{
 /* Start services */
 .services{
     background-color: var(--color-white);
-    padding: 50px 0px;
+    padding: 90px 0px;
 }
 .services .up{
     width: 70%;
@@ -151,7 +155,7 @@ body{
     padding: 0px 10px;
 }
 .services .up div:nth-child(2){
-    box-shadow: 8px 8px 13px 0px var(--color-body);
+   box-shadow: 8px 8px 13px 0px var(--color-body);
 }
 
 
