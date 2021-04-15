@@ -1,3 +1,13 @@
+@media  (max-width: 3000px) {
+    .services .up{
+        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    }
+}
+@media  (max-width: 2560px) {
+    .services .up{
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+}
 @media  (max-width: 700px) {
     
     .header .contener{

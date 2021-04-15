@@ -40,9 +40,9 @@ body{
     justify-content: center;
     
 }
-.header .contener .link:hover .icon span:nth-child(2){
-    width: 100%;
-}
+
+
+
 .header .contener .link .icon{
     width: 100%;
     display: flex;
@@ -141,16 +141,14 @@ body{
     margin: 0px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(175px, 1fr));
     gap: 20px 0px;
     
 }
 .services .up div{
     text-align: center;
     padding: 0px 10px;
-}
-.services .up div:nth-child(2){
-   box-shadow: 8px 8px 13px 0px var(--color-body);
+    box-shadow: 8px 8px 16px 0px var(--color-body);
 }
 
 
