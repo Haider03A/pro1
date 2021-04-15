@@ -1,8 +1,5 @@
 @media  (max-width: 700px) {
-    .header .contener .link .nav{
-        right: 0px;
     
-    }
     .header .contener{
         width: calc(100% - 100px);
     }
@@ -23,20 +20,40 @@
     .header .contener{
         width: auto;
     }
+    
+    .header .contener .link .nav li a{
+      font-size: 15px; 
+    }
+    .home p {
+      font-size: 12px;
+    }
     .services .text_playlist h1{
         font-size: 3em;
     }
     .services .text_playlist p{
         margin-top: -20px;
-        font-size: 1em;
+        font-size: 10px;
     }
-    
+    .services .up {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
     
 }
 @media  (max-width: 260px) {
+   
+    .header .contener .link .nav {
+      right: 0px;
+    
+    }
+    .home p {
+      font-size: 10px;
+    }
     .services .up{
         width: auto;
         grid-template-columns: repeat(auto-fill, minmax(25px, 1fr));
+    }
+    .services .up{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 
 }

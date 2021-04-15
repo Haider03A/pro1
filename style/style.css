@@ -102,7 +102,6 @@ body{
     padding: 13px;
     display: block;
     font-size: 3em;
-    font-weight: bold;
     border-bottom: 0.1px var(--color-body) solid;
 }
 .header .contener .link .nav li:last-child a{
@@ -116,6 +115,7 @@ body{
     align-items: center;
     height: 500px;
     text-align: center;
+    padding: 0px 10px;
 }
 .home h1{
     color: var(--color-green);
@@ -140,14 +140,15 @@ body{
 .services .up{
     width: 70%;
     margin: 0px auto;
-    
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px 0px;
     
 }
 .services .up div{
     text-align: center;
+    padding: 0px 10px;
 }
 .services .up div:nth-child(2){
     box-shadow: 8px 8px 13px 0px var(--color-body);
@@ -157,10 +158,14 @@ body{
 .services .up div i{
     color: var(--color-green);
     font-size: 2em;
+    
+
 }
 .services .up div h1{
     color: var(--color-off-black);
     font-weight: bold;
+  
+
 }
 .services .up div p{
     color: var(--color-off-black);
