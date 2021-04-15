@@ -9,6 +9,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: var(--color-body);
@@ -114,6 +115,7 @@ body{
     flex-direction: column;
     align-items: center;
     height: 500px;
+    text-align: center;
 }
 .home h1{
     color: var(--color-green);
@@ -133,10 +135,12 @@ body{
 /* Start services */
 .services{
     background-color: var(--color-white);
+    padding: 50px 0px;
 }
 .services .up{
     width: 70%;
     margin: 0px auto;
+    
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
@@ -144,7 +148,6 @@ body{
 }
 .services .up div{
     text-align: center;
-    padding: 50px 10px;
 }
 .services .up div:nth-child(2){
     box-shadow: 8px 8px 13px 0px var(--color-body);
@@ -163,17 +166,21 @@ body{
     color: var(--color-off-black);
     line-height: var(--font-line-height);
 }
-.services .text_services{
+.services .text_playlist{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
-.services .text_services h1{
+.services .text_playlist h1{
     color: var(--color-body);
-    font-size: 4em;
+    font-size: 8em;
+    margin: 0px;
+
 }
-.services .text_services p{
+.services .text_playlist p{
     color: var(--color-off-black);
-    position: absolute;
-    top: 1;
+    margin-top: -50px;
+    font-size: 1.5em;
+
 }
