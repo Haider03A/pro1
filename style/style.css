@@ -43,10 +43,6 @@ body{
 .header .contener .link:hover .icon span:nth-child(2){
     width: 100%;
 }
-.header .contener .link:hover .nav{
-  display: block;
-  margin-bottom: 0px;
-}
 .header .contener .link .icon{
     width: 100%;
     display: flex;
@@ -88,7 +84,6 @@ body{
     display: none; 
     transition: 0.3s; 
     width: 150px;
-    
 
 }
 .header .contener .link .nav li{
