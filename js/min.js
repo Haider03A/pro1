@@ -7,7 +7,6 @@ link.onclick = function (e) {
     iconTransform.classList.toggle("iconTransform"),
     nav.classList.toggle("open");
 };
-
 document.addEventListener("click", (e) =>{
     if (e.iconTransform !== link ) {
         if (nav.classList.contains("open")) {
