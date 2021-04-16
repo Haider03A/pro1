@@ -40,9 +40,6 @@ body{
     justify-content: center;
     
 }
-
-
-
 .header .contener .link .icon{
     width: 100%;
     display: flex;
@@ -94,7 +91,8 @@ body{
     
 }
 .header .contener .link .nav li:hover a {
-  padding-left: 20px;
+  padding-left: 30px;
+  color: var(--color-green);
 }
 .header .contener .link .nav li a{
     font-size: 1em;
@@ -107,9 +105,9 @@ body{
     border-bottom: 0.1px var(--color-body) solid;
     
 }
-.header .contener .link .nav li:last-child a{
+/* .header .contener .link .nav li:last-child a{
     border-bottom: 0px;
-}
+} */
 /* End Header */
 /* Start home */
 .home{
