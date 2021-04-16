@@ -5,6 +5,7 @@
     --color-green: #10cab7;
     --font-line-height: 30px;
     --color-shadow: #00000094;
+    --font-bold: 'Fjalla One', sans-serif;
 }
 * , html{
     padding: 0px;
@@ -125,7 +126,7 @@ body{
 .home h1{
     color: var(--color-green);
     font-size: 3em;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--font-bold);
     margin-top: 90px;
     
 }
@@ -138,6 +139,19 @@ body{
     line-height: var(--font-line-height);
 }
 /* End home */
+/* Start Twxt Playlis */
+.text_playlist {
+    color: var(--color-off-black);
+    line-height: 1;
+
+}
+.text_playlist span{
+    color: var(--color-body);
+    display: block;
+    font-size: 6em;
+    font-family: var(--font-bold);
+}
+/* End Twxt Playlis */
 /* Start services */
 .services{
     background-color: var(--color-white);
@@ -148,8 +162,7 @@ body{
     margin: 0px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(175px, 1fr));
-    
+    grid-template-rows: repeat(auto-fill, minmax(175px, 1fr));   
 }
 .services .up div{
     text-align: center;
@@ -157,8 +170,6 @@ body{
     padding: 15px 15px;
     /*box-shadow: 0px 0px 7px -3px var(--color-shadow);*/
 }
-
-
 .services .up div i{
     color: var(--color-green);
     font-size: 2em;
@@ -168,6 +179,7 @@ body{
 .services .up div h1{
     color: var(--color-off-black);
     font-weight: bold;
+    font-family: var(--font-bold);
   
 
 }
@@ -182,35 +194,23 @@ body{
     text-align: center;
     margin: 10px 0px;
 }
-.services .text_playlist p span{
-    color: var(--color-body);
-    font-size: 8em;
-    
-
-}
-.services .text_playlist p{
-    color: var(--color-off-black);
-    margin-top: -50px;
-    font-size: 1.5em;
-
-}
 .services .down{
-    width: 100%;
-    padding: 20px;
+    width: 600px;
+    padding: 25px 20px;
     margin: 0px auto;
     display: grid;
-    gap: 20px;
-    
-
+    gap: 10px;
 }
 .services .down i{
     color: var(--color-green);
 }
 .services .down h2{
     color: var(--color-off-black);
+    font-family: var(--font-bold);
 }
 .services .down p{
     color: var(--color-off-black);
+    line-height: 1.5;
 }
 .services .down i:nth-child(1){
     grid-column: 1;
@@ -260,3 +260,7 @@ body{
     grid-column: 4;
     grid-row: 4;
 }
+/* End Services */
+/* Start Portfolio */
+/* Start Portfolio */
+/* End Portfolio */
