@@ -48,8 +48,6 @@ body{
     display: flex;
     flex-wrap: wrap;
    justify-content: flex-end;
-   transition: all 0.3s; 
-   
 }
 .header .contener .link .icon span{ 
     background-color: var(--color-off-black);
@@ -57,24 +55,28 @@ body{
     height: 4px;
     border-radius: 4px;
     margin-bottom: 5px;
-    
-    
+    transition: all  .3s;
 }
-.header .contener .link .icon span:nth-child(2){
-    width: 50%;
-    transition: 0.3s; 
-
+.header .contener .link .icon .open{
+    width: 100%;
 }
-.header .contener .link .icon span:nth-child(3){
+.header .contener .link .iconTransform span{
+    margin: 0px;
+    transition: all .3s;
+}
+.header .contener .link .iconTransform span:first-child{
+    transform: rotate(47deg);
+    width: 35px;
+}
+.header .contener .link .iconTransform span:nth-child(2){
+    display: none;
+}
+.header .contener .link .iconTransform span:last-child{
+    transform: rotate(134deg);
+    width: 35px;
+}
+.header .contener .link .icon span:last-child{
     margin-bottom: 0px;
-}
-.header .contener .link .nav::before{
-  content: "";
-  width: 231px;
-  height: 50px;
-  position: absolute; 
-  top: -50px;
-  right: -20px;
 }
 .header .contener .link .nav{
     background-color: var(--color-white);
@@ -82,12 +84,14 @@ body{
     top: 80px;
     right: 20px;
     display: none; 
-    transition: 0.3s; 
     width: 150px;
-
+}
+.header .contener .link .open{
+    display: block;
 }
 .header .contener .link .nav li{
     list-style: none;
+    
 }
 .header .contener .link .nav li:hover a {
   padding-left: 20px;
@@ -101,6 +105,7 @@ body{
     display: block;
     font-size: 1.5em;
     border-bottom: 0.1px var(--color-body) solid;
+    
 }
 .header .contener .link .nav li:last-child a{
     border-bottom: 0px;
