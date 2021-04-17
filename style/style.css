@@ -113,9 +113,10 @@ body{
 /* End Header */
 /* Start home */
 .home{
-   /*  background-image: url(../img/background01.jpg);
+   background-image: linear-gradient(var(--color-shadow),var(--color-shadow)),url(../img/bg01.jpg);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
+    background-position: 50% 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,7 +132,7 @@ body{
     
 }
 .home p{
-    
+    color: var(--color-white);
 }
 .home p span{
     display: block;
