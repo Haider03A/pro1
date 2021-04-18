@@ -33,12 +33,12 @@
         width: auto;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
-    .text_playlist span{
+    /* .text_playlist span{
         font-size: 5em;
     }
     .text_playlist {
         font-size: 1em;
-    }
+    } */
     .services .down{
         display: block;
         text-align: center;
@@ -87,17 +87,26 @@
       font-size: 12px;
     }
     .text_playlist {
-        font-size: 10px;
+        font-size: 14px;
+    
     }
     .text_playlist span{
-        font-size: 4em;
+        font-size: 75px;
     }
     .services .up {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
     
 }
-
+@media (max-width: 300px) {
+    .text_playlist {
+        font-size: 10px;
+    
+    }
+    .text_playlist span{
+        font-size: 40px;
+    }  
+}
 @media  (max-width: 260px) {
       
     .home p {
@@ -115,4 +124,5 @@
         margin: 0px auto ;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
+
 }

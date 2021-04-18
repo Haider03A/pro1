@@ -120,7 +120,7 @@ body{
    background-image: linear-gradient(var(--color-shadow-up),var(--color-shadow-down)), url(../img/bg01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% ;
+    background-position: 46% ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,12 +150,13 @@ body{
     line-height: 1;
     text-align: center;
     padding: 50px 0px;
+    font-size: 1em;
 
 }
 .text_playlist span{
     color: var(--color-body);
     display: block;
-    font-size: 6em;
+    font-size: 5em;
     font-family: var(--font-bold);
 }
 .text_playlist .color{
