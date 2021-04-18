@@ -311,10 +311,10 @@ body{
 .portfolio .contener div{
     transition: all .3s;
 }
-.portfolio .contener div:hover{
+/* .portfolio .contener div:hover{
     box-shadow: 0px 0px 7px -3px var(--color-shadow);
     
-}
+} */
 .portfolio .contener div img{
     max-width: 100%;
     border-top-left-radius: 4px;
@@ -336,5 +336,29 @@ body{
     color: var(--color-off-black);
     line-height: var(--font-line-height);
 }
-/* Start Portfolio */
 /* End Portfolio */
+/* Start About */
+.about{
+    padding: 40px 0px 90px;
+}
+.about .contener{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    width: 1000px;
+    margin: auto;
+}
+.about .contener div img{
+    max-width: 300px;
+    border-radius: 4px;
+    
+}
+.about .contener div p{
+    line-height: var(--font-line-height);
+    color: var(--color-off-black);
+}
+.about .contener div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* End About */
