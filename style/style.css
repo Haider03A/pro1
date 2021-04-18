@@ -7,6 +7,7 @@
     --color-shadow-up: #2c475580;
     --color-shadow-down: #ffffff;
     --font-bold: 'Fjalla One', sans-serif;
+    --color-portfolio: #ebeced;
 }
 * , html{
     padding: 0px;
@@ -15,13 +16,15 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: var(--color-body)
+   /*  background-color: var(--color-body) */
 }
 /* Start Header */
 .header{
     position: fixed;
     width: 100%;
     background-color: var(--color-white);
+    
+    
 }
 .header .contener{
     width: calc(100% - 250px);
@@ -145,6 +148,8 @@ body{
 .text_playlist {
     color: var(--color-off-black);
     line-height: 1;
+    text-align: center;
+    padding: 50px 0px;
 
 }
 .text_playlist span{
@@ -152,6 +157,9 @@ body{
     display: block;
     font-size: 6em;
     font-family: var(--font-bold);
+}
+.text_playlist .color{
+    color: var(--color-portfolio);
 }
 /* End Twxt Playlis */
 /* Start services */
@@ -203,8 +211,10 @@ body{
     display: grid;
     gap: 10px;
 }
+
 .services .down i{
     color: var(--color-green);
+    font-size: 1.5em;
 }
 .services .down h2{
     color: var(--color-off-black);
@@ -212,7 +222,7 @@ body{
 }
 .services .down p{
     color: var(--color-off-black);
-    line-height: 1.5;
+    line-height: var(--font-line-height);
 }
 .services .down i:nth-child(1){
     grid-column: 1;
@@ -262,21 +272,32 @@ body{
     grid-column: 4;
     grid-row: 4;
 }
-.services .down img{
+.services .down .imgdown{
     grid-column: 5;
     grid-row: 1/5;
-    width: 200px;
-    position: relative;
+   position: relative;
 }
-.imgdown::after {
-    
+
+.services .imgdown div::after{
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 48%;
+    height: calc(100% - 4px + 50px);
+    top: -25px;
+    right: -31px;
     background-color: var(--color-off-black);
+}
+
+.services .imgdown div img{
+    width: 233px;
+    position: relative;
+    z-index: 1;
+    
 }
 /* End Services */
 /* Start Portfolio */
+.portfolio{
+    padding: 40px 0px 90px;
+}
 /* Start Portfolio */
 /* End Portfolio */
