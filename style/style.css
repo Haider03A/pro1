@@ -168,10 +168,10 @@ body{
     padding: 90px 0px;
 }
 .services .up{
-    width: 70%;
+    width: 1000px;
     margin: 0px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(175px, 1fr));   
 }
 .services .up div{
@@ -298,6 +298,35 @@ body{
 /* Start Portfolio */
 .portfolio{
     padding: 40px 0px 90px;
+    background-color: var(--color-body)
+}
+.portfolio .contener{
+    width: 1000px;
+    margin: 0px auto ;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.portfolio .contener div img{
+    max-width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+}
+.portfolio .contener div div{
+    background-color: var(--color-white);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 15px;
+    margin-top: -4px;
+}
+.portfolio .contener div div h2{
+    color: var(--color-off-black);
+    padding: 0px 0px 15px;
+}
+.portfolio .contener div div p{
+    color: var(--color-off-black);
+    line-height: var(--font-line-height);
 }
 /* Start Portfolio */
 /* End Portfolio */

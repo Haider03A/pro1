@@ -1,19 +1,14 @@
-@media  (max-width: 3000px) {
-    .services .up{
-        grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    }
-}
-@media  (max-width: 2560px) {
-    .services .up{
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    }
-}
-@media (max-width: 1000px){
 
+@media (max-width: 1050px){
+    .portfolio .contener{
+        width: 80%;
+        margin: 0px auto ;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
 }
 @media  (max-width: 900px) {
     .services .down{
-        width: 90%;
+        width: 80%;
     }
     .services .down div {
         display: none;
@@ -43,7 +38,9 @@
         display: block;
         text-align: center;
     }
-    
+    .services .down i, h2, p{
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 450px){
     .services .down i:nth-child(7){
@@ -70,7 +67,12 @@
       grid-column: 2;
       grid-row: 8;
   }
+  .portfolio .contener{
+    width: 80%;
+    margin: 0px auto ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
+}
 @media  (max-width: 400px) {
     .header .contener{
         width: auto;
