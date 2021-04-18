@@ -90,7 +90,7 @@
         font-size: 10px;
     }
     .text_playlist span{
-        font-size: 3em;
+        font-size: 4em;
     }
     .services .up {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
