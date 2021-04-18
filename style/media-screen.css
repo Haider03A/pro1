@@ -110,5 +110,9 @@
     .services .up{
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
-  
+    .portfolio .contener{
+        width: 80%;
+        margin: 0px auto ;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
 }
