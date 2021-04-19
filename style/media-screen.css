@@ -10,6 +10,23 @@
         margin: 0px auto ;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
+    .about .contener{
+        display: block;
+        width: 80%;
+    }
+    .about .contener .image{
+        display: none;
+    }
+    .about .contener .text{
+        width: 100%;
+        height: auto;
+    }
+    .about .contener .text p:first-child{
+        margin-bottom: 40px;
+    }
+    .about .contener .text p:last-child::after{
+     top: -12px;
+    }
 }
 @media  (max-width: 900px) {
     .services .down{
