@@ -9,6 +9,7 @@
     --font-bold: 'Fjalla One', sans-serif;
     --color-portfolio: #ebeced;
     --color-shadow : #0000006b;
+    --color-bg-contact: #fafafa;
 }
 * , html{
     padding: 0px;
@@ -419,3 +420,43 @@ body{
     left: 0px;
 }
 /* End About */
+/* start Contact */
+/*
+.contact{
+    background-color: var(--color-bg-contact);
+    padding: 40px 0px 90px;
+}
+.contact .contener{
+    width: 1000px;
+    margin: 0px auto;
+    display: block;
+    font-size: 2em;
+    float: left;
+}
+.contact .contener .content-down{
+    font-size: 150%;
+    text-align: center;
+    line-height: var(--font-line-height);
+}
+.contact .contener .content-down p{
+    font-weight: bold;
+}
+.contact .contener .content-down p:first-child{
+    color: var(--color-off-black);
+}
+.contact .contener .content-down p:nth-child(2){
+   color: var(--color-green);
+}
+.contact .contener .content-down .icon-down{
+    font-size: 20px;
+}
+.contact .contener .content-down .icon-down p{
+    display: inline-block;
+    
+}
+.contact .contener .content-down .icon-down i{
+    color: var(--color-off-black);
+    margin: 0px 10px;
+}
+*/
+/* End Contact */

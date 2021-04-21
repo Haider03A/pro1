@@ -50,7 +50,9 @@
         margin-left: 110px;
         width: 100%;
     }
-    
+    .contact .contener{
+        width: 80%;
+    }
 }
 @media  (max-width: 900px) {
     .services .down{
@@ -77,6 +79,13 @@
     .about .contener .text p:last-child::after{
      top: -12px;
     }
+    
+}
+@media  (max-width: 790px) {
+    .contact .contener .content-down{
+        font-size: 150%;
+        }
+
 }
 @media  (max-width: 700px) {
     
