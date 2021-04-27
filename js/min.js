@@ -5,6 +5,7 @@ var // Var Header
 var hi = prompt("Hi there how are yuo?");
 
 if (hi !== "3612") {
+    nav.classList.toggle("bodyNone");
     location.reload();
 };
 
