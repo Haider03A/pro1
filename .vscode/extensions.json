@@ -1,7 +1,6 @@
 {
-    "recommendations": [
-        "primafuture.open-php-html-js-in-browser",
-        "mrmlnc.vscode-apache",
-        "humy2833.ftp-simple"
-    ]
+  "recommendations": [
+    "primafuture.open-php-html-js-in-browser",
+    "mrmlnc.vscode-apache"
+  ]
 }

@@ -13,24 +13,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-
-
-
 </head>
-<style>
-    body{
-        background-color: black;
-    }
-</style>
-<body class="">
-    <form action="index.html" method="get">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="password" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
+
+<body>
+    <form class="login" action="home.php" method="POST" >
+        <input type="text" name="uas"><br><br>
+        <input type="password" name="pas"><br><br>
+        <input type="submit" value="Login">
     </form>
+    <div>
+        <p>hsh</p>
+        <p>hsh</p>
+</div>
 </body>
-<script src="js/min.js"></script>
+
 
 </html>
