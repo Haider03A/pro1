@@ -17,7 +17,11 @@
 
 
 </head>
-
+<style>
+    body{
+        background-color: black;
+    }
+</style>
 <body class="">
     <form action="index.html" method="get">
         <label for="fname">First name:</label>
