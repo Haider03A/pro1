@@ -1,0 +1,196 @@
+
+@media (max-width: 1050px){
+    .services .up{
+        width: 80%;
+        margin: 0px auto;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));   
+    }
+    .portfolio .contener{
+        width: 80%;
+        margin: 0px auto ;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .about .contener{
+        width: 80%;
+    }
+    .about .contener .image div::after {
+        content: "";
+        position: absolute;
+        width: 64px;
+        height: calc(100% + 50px);
+        background-color: #f0f0f0;
+        left: -15px;
+        top: -25px;
+        z-index: -1;
+    }
+    .about .contener .image::before {
+        content: "";
+        position: absolute;
+        width: 83px;
+        height: 45px;
+        background-color: var(--color-green);
+        right: -83px;
+        top: 50%;
+        z-index: -1;
+    }
+    .about .contener .image div img{
+        width: 100%;
+    }
+    .about .contener .image div::before {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: calc(100% - 45px);
+        background-color: var(--color-green);
+        top: -18px;
+        right: -18px;
+        z-index: -1;
+    }
+    .about .contener .text{
+        margin-left: 110px;
+        width: 100%;
+    }
+    .contact .contener{
+        width: 80%;
+    }
+}
+@media  (max-width: 900px) {
+    .services .down{
+        width: 80%;
+    }
+    .services .down div {
+        display: none;
+    }
+    .about .contener{
+        display: block;
+        width: 80%;
+    }
+    .about .contener .image{
+        display: none;
+    }
+    .about .contener .text{
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    .about .contener .text p:first-child{
+        margin-bottom: 40px;
+    }
+    .about .contener .text p:last-child::after{
+     top: -12px;
+    }
+    
+}
+@media  (max-width: 790px) {
+    .contact .contener .content-down{
+        font-size: 150%;
+        }
+
+}
+@media  (max-width: 700px) {
+    
+    .header .contener{
+        width: calc(100% - 100px);
+    }
+    .services .down div {
+        display: none;
+    }
+}
+@media  (max-width: 500px) {
+    .services .up{
+        width: auto;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    /* .text_playlist span{
+        font-size: 5em;
+    }
+    .text_playlist {
+        font-size: 1em;
+    } */
+    .services .down{
+        display: block;
+        text-align: center;
+    }
+    .services .down i, h2, p{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 450px){
+    .services .down i:nth-child(7){
+      grid-column: 1;
+      grid-row: 5/7;
+  }
+  .services .down h2:nth-child(8){
+      grid-column: 2;
+      grid-row: 5 ;
+  }
+  .services .down p:nth-child(9){
+      grid-column: 2;
+      grid-row: 6;
+  }
+  .services .down i:nth-child(10){
+      grid-column: 1;
+      grid-row: 7/9;
+  }
+  .services .down h2:nth-child(11){
+      grid-column: 2;
+      grid-row: 7;
+  }
+  .services .down p:nth-child(12){
+      grid-column: 2;
+      grid-row: 8;
+  }
+  .portfolio .contener{
+    width: 80%;
+    margin: 0px auto ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+@media  (max-width: 400px) {
+    .header .contener{
+        width: auto;
+        margin: auto;
+    }
+    .home p {
+      font-size: 12px;
+    }
+    .text_playlist {
+        font-size: 14px;
+    
+    }
+    .text_playlist span{
+        font-size: 75px;
+    }
+    .services .up {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+}
+@media (max-width: 300px) {
+    .text_playlist {
+        font-size: 10px;
+    
+    }
+    .text_playlist span{
+        font-size: 40px;
+    }  
+}
+@media  (max-width: 260px) {
+      
+    .home p {
+      font-size: 10px;
+    }
+    .services .up{
+        width: auto;
+        grid-template-columns: repeat(auto-fill, minmax(25px, 1fr));
+    }
+    .services .up{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .portfolio .contener{
+        width: 80%;
+        margin: 0px auto ;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+}

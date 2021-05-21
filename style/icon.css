@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?cxza5a');
+  src:  url('../fonts/icomoon.eot?cxza5a#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?cxza5a') format('truetype'),
+    url('../fonts/icomoon.woff?cxza5a') format('woff'),
+    url('../fonts/icomoon.svg?cxza5a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fas-fa-comment-alt:before {
+  content: "\f022";
+}
+.icon-fas-fa-print:before {
+  content: "\26";
+}
+.icon-fas-fa-flask:before {
+  content: "\f0c3";
+}
+.icon-fas-fa-ambulance:before {
+  content: "\f0f9";
+}
+.icon-fas-fa-desktop:before {
+  content: "\f108";
+}
+.icon-fas-fa-keyboard:before {
+  content: "\f11c";
+}
+.icon-fas-fa-window-maximize:before {
+  content: "\f2d0";
+}
